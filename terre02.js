@@ -3,7 +3,7 @@ Nous allons récupérer l'ensemble des arguments
 pour ce faire, nous allons "couper " le tableau
 */
 
-if (process.argv[2]) {
+if (process.argv[2]) { // 
   arguments = process.argv.slice(2);
 
   for (let i = 0; i <= arguments.length; i++) {
