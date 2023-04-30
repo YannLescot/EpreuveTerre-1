@@ -10,10 +10,11 @@ if (
   console.log("Erreur.");
   process.exit();
 }
-
+//On met les valeur dans des variables
 number1 = process.argv[2];
 number2 = process.argv[3];
 
+//if ternaire l'exposant ne doit pas être négatif
 number2 < 0
   ? console.log("L'exposant ne peut pas être négatif")
   : console.log(number1 ** number2);
